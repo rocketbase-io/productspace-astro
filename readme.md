@@ -1,0 +1,3 @@
+# Astra ProductSpace
+
+Uses astro, tailwind and a bit of react for site generation. Based on [astroplate](https://github.com/zeon-studio/astroplate) thx for the project setup....
