@@ -3,7 +3,7 @@
 banner:
   title: "Treibt die Zusammenarbeit an und erhöht die Effizienz"
   content: "Die <b>ProductSpace Collaboration Software</b> für Sortiments-management macht ihre Workflows effizienter, transparenter, kreativer und um bis zu <b>50% schneller</b>."
-  image: "/images/banner.png"
+  image: "/images/ps-machine.svg"
   button:
     enable: true
     label: "Get Started For Free"

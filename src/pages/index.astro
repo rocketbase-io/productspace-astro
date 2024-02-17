@@ -29,40 +29,16 @@ const { banner, features }: Homepage = homepage.data;
   <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
-        <div class="lg:col-7 md:col-9 mb-8 text-center">
-          <h1
-            set:html={markdownify(banner.title)}
-            class="mb-4 text-h3 lg:text-h1"
-          />
-          <p set:html={markdownify(banner.content)} class="mb-8" />
-          {
-            banner.button.enable && (
-              <a
-                class="btn btn-primary"
-                href={banner.button.link}
-                target={
-                  banner.button.link.startsWith("http") ? "_blank" : "_self"
-                }
-                rel="noopener"
-              >
-                {banner.button.label}
-              </a>
-            )
-          }
+        <div class="md:col-7 mb-8 text-center">
+          <h1 class="mb-4 text-h3 lg:text-h1">Treibt die Zusammenarbeit an und erhöht die Effizienz</h1>
+          <p class="mb-8" >
+            Die <b>ProductSpace Collaboration Software</b> für Sortiments-management macht ihre Workflows effizienter, transparenter, kreativer und um bis zu <b>50% schneller</b>.
+          </p>
+          <a class="btn btn-primary" href="#" target="_self" rel="noopener">Kontakt</a>
         </div>
-        {
-          banner.image && (
-            <div class="col-12">
-              <ImageMod
-                src={banner.image}
-                height={380}
-                width={1200}
-                alt="banner"
-                format="webp"
-              />
-            </div>
-          )
-        }
+        <div class="md:col-5 mb-8 text-center">
+          <img src="/images/ps-machine.svg"/>
+        </div>
       </div>
     </div>
   </section>
